@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+  }
+  h1{
+    color:black;
+    padding-left: 30px;
+    float: left;
+    font-size: 28px;
+    padding-top: 30px;
+    
+  }
+  img{
+    width:100%;
+    height: auto;
+  }
+  nav {
+    float: right;
+    text-align: center;
+    
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+    
+  }
+  
+  nav ul {
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 1rem 1rem 0 0;
+    color:black;
+    padding: 10px;
+    
+  }
+  
+  nav ul a:hover::after {
+    width: 100%;
+  }
+  nav ul a:after {
+    
+    display: block;
+    background: black;
+    transition: width .3s ease-out;
+  }
+  nav ul li:nth-child(4) {
+    margin-right: 2.5rem;
+  }
+  header {
+   
+    min-height: 150vh;
+    position:relative;
+  } 
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .hero {
+    
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    margin: 0 20%;
+  }
+  .hero p{
+      padding:50px;
+      color: black;
+      text-align: center;
+      font-size:18px;
+  }
+  .btn
+  {
+    
+     display: inline;
+     max-width: 300px;
+     margin: auto;
+     padding-left: 250px;
+  }
+
+  .learn
+  {
+      background-color:#3498DB;
+      justify-content: center;
+      text-align: center;
+      margin-right: 20% 20%; 
+      color: white;
+      padding: 10px;
+      padding-left: 20px;
+      
+  }
+  .download
+  {
+      background-color:  #1ABC9C;
+      justify-content: center;
+      text-align: center;
+      padding: 10px ;
+      color: white;
+      margin-right: 20% 20%;
+
+  }
+  .services
+  {
+      text-align: center;
+  }
+  .services h4{
+      color:black;
+      text-align: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: bold;
+      font-size: 30px;
+      padding:30px;
+  }
+  .small
+  {
+      color:black;
+      text-align: center;
+      padding:30px;
+      font-size: 15px;
+  }
+.row
+{
+    text-align:center;
+    padding: 50px;
+}
+.row h6{
+    font-size: bold;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+.row p{
+   font-size:15px;
+    padding: 20px;
+}
+.row , .button
+{
+    text-align: center;
+}
+.posts
+{
+    justify-content: center;
+    text-align:center;
+}
+.posts h3{
+    color:black;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+.posts, .span
+{
+    color:black;
+    text-align: center;
+    padding:35px;
+    font-size: 15px;
+  }
+.nav-services {
+    
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    
+  }
+  
+  .nav-services ul {
+    margin: 0;
+  }
+  
+  .nav-services ul li {
+    display: inline-block;
+    margin: 1rem 1rem 0 0;
+    color:black;
+    
+  }
+  .nav-services ul li:nth-child(4) {
+    margin-right: 2.5rem;
+  }
+  .nav-services ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #3498DB;
+  }
+  i {
+    background-color: white;
+    
+    border: 2x solid grey;
+    padding: 40px;
+    border-radius: 30%;
+}
+  .container {
+    text-align: center;
+    justify-content: center;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    margin: 5% 5%;
+    text-align:center;
+}
+.container button {
+  background-color: #3498DB;
+  color: white;
+}
+.contact-form h3{
+  color:black;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: bold;
+  font-size: 30px;
+  padding: 20px;
+}
+
+
+.contact-form,  .span
+{
+  color:black;
+  text-align: center;
+  padding:35px;
+  font-size: 15px;
+
+}
+ #contact input[type="text"], #contact input[type="email"],
+ #contact textarea, 
+ #contact button[type="submit"] { 
+  font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+}
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"],  #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover,
+  #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+  
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+  width:10%;
+  float:left;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { 
+  box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
+ }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+.footer{
+  background-color:gray;
+}
+.footer p{
+  color:white;
+  float:left;
+  padding: 60px;
+}
+ 
+nav {
+  float: right;
+  text-align: center;
+  
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1rem 1rem 0 0;
+  color:black;
+  padding: 10px;
+  
+}
+
+nav ul i:hover::after {
+  width: 100%;
+}
+nav ul i:after {
+  
+  display: block;
+  background: black;
+  transition: width .3s ease-out;
+}
+nav ul li:nth-child(4) {
+  margin-right: 2.5rem;
+  float:right;
+}
+nav ul li i{
+  text-decoration: none;
+  
+  color:white;
+  display: inline-block;
+  padding: 40px;
+ 
+}
+.footer-items
+{
+  background-color: gray;
+  padding : 25px;
+}
+.footer-items  p{
+  color:white;
+  padding: 55px;
+  
+}
+.footer-items i{
+  float: right;
+  color:white;
+ 
+}
