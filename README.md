@@ -1,2 +1,2 @@
 # Page
-A small page using Html, Css , JavaScript
+A small page using Html, CSS , JavaScript
